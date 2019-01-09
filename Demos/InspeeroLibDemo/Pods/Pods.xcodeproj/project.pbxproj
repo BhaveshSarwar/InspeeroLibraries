@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		190F88E2972D7312EFFCA6C697405575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		259F5AEFBC439F51A7C980CADC801122 /* InspeeroLibs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393F7CA9775F35D8B94C1617E5AAD75 /* InspeeroLibs-dummy.m */; };
+		259F5AEFBC439F51A7C980CADC801122 /* InspeeroLibs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE719CB5EDC1A5FE0A8BAFAB9BA917 /* InspeeroLibs-dummy.m */; };
 		30A9F2F319D1390AFF06B9705FC38E89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		370117271252F1DFAEB164625FC3583C /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B5D1F7221BAAF352CDCBF1E410D3B /* IAPHelper.swift */; };
-		3D12A5C3A507D34DBB5C1C837C9404D2 /* InspeeroLibs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E03B5F7BE197206CD67BE68A1ECD01E /* InspeeroLibs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370117271252F1DFAEB164625FC3583C /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52113E726FF5A1AC6FD0C2E7B74F1AC /* IAPHelper.swift */; };
+		3D12A5C3A507D34DBB5C1C837C9404D2 /* InspeeroLibs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C20A2479C788E39459FAE0C706694BC /* InspeeroLibs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E159B06D776EDD680C5DC525D7A044C /* Pods-InspeeroLibDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374DEEE8C501C51FEB9A99223031CC19 /* Pods-InspeeroLibDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58F652FFC06991AFEC9ACE8F80D7D8DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		6AC86CA84859948E514DD77E6DB005A8 /* Pods-InspeeroLibDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDACC476F44186C1150005B3CDA5AE9B /* Pods-InspeeroLibDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,42 +47,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A3F7470415FCD94121D50F1570F697 /* InspeeroLibs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InspeeroLibs-Info.plist"; sourceTree = "<group>"; };
 		04CE915E397180B672A554D1CB30126E /* Pods-InspeeroLibDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InspeeroLibDemo-umbrella.h"; sourceTree = "<group>"; };
 		0CCC28DD67695745D15898425CC76770 /* Pods_InspeeroLibDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InspeeroLibDemoTests.framework; path = "Pods-InspeeroLibDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E03B5F7BE197206CD67BE68A1ECD01E /* InspeeroLibs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InspeeroLibs-umbrella.h"; sourceTree = "<group>"; };
-		122EFEBB4148C738F9A2F9552228D88A /* InspeeroLibs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InspeeroLibs.modulemap; sourceTree = "<group>"; };
 		1E33CE71CD06A28047E0BAECDC5917A0 /* Pods-InspeeroLibDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InspeeroLibDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2393F7CA9775F35D8B94C1617E5AAD75 /* InspeeroLibs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InspeeroLibs-dummy.m"; sourceTree = "<group>"; };
-		35144F79B2ABE53CC3A0C8C1E0E82D90 /* InspeeroLibs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = InspeeroLibs.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36B3A597BF37EBDC8D53D6E75BA0B428 /* Pods-InspeeroLibDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InspeeroLibDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		36BAECCD99F2F3DFE1C72C4FCEFC5E8D /* Pods-InspeeroLibDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InspeeroLibDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		374DEEE8C501C51FEB9A99223031CC19 /* Pods-InspeeroLibDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InspeeroLibDemoTests-umbrella.h"; sourceTree = "<group>"; };
 		39700CAE9E24B5A411391723D432C7BD /* InspeeroLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InspeeroLibs.framework; path = InspeeroLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C20A2479C788E39459FAE0C706694BC /* InspeeroLibs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InspeeroLibs-umbrella.h"; sourceTree = "<group>"; };
 		3E0F10E03DE80A438ED08CE6E0828187 /* Pods-InspeeroLibDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InspeeroLibDemo-frameworks.sh"; sourceTree = "<group>"; };
-		3F2B5D1F7221BAAF352CDCBF1E410D3B /* IAPHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAPHelper.swift; path = Components/InAppPurchase/Source/IAPHelper.swift; sourceTree = "<group>"; };
 		41A356F54B02761C6FF7C72A0489C90F /* Pods-InspeeroLibDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InspeeroLibDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		450B4AB614D2DB36269C68C9CB71C743 /* InspeeroLibs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InspeeroLibs.xcconfig; sourceTree = "<group>"; };
 		4CE1A79FBEDA654B66A3334A8C17E99D /* Pods-InspeeroLibDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InspeeroLibDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F806D4BD6325B59C3F673F8091FCEBB /* Pods-InspeeroLibDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InspeeroLibDemoUITests.modulemap"; sourceTree = "<group>"; };
 		6538B3072E30B9FE7C835169F837EF6E /* Pods-InspeeroLibDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InspeeroLibDemo.release.xcconfig"; sourceTree = "<group>"; };
-		88942361204F899CF14B492E0767505E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8F9D85B6CA6075FB4850878743CB9A5D /* Pods-InspeeroLibDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InspeeroLibDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9374AC6F08D96D5AE152931A34413226 /* Pods-InspeeroLibDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InspeeroLibDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9374EA30D1346869FD1A94F83882B5C9 /* Pods_InspeeroLibDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InspeeroLibDemo.framework; path = "Pods-InspeeroLibDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DAE2343484B84651F0EE3D59A02B2F /* InspeeroLibs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InspeeroLibs-prefix.pch"; sourceTree = "<group>"; };
 		9F545132944BFD25D137FC3DD16690C3 /* Pods-InspeeroLibDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InspeeroLibDemo-Info.plist"; sourceTree = "<group>"; };
-		A47DE2C8B1FB7C3DFEE7AB519D0AE7A6 /* InspeeroLibs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InspeeroLibs-prefix.pch"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4EF1F9ECDECA03E8522D93F9CBAD785 /* Pods-InspeeroLibDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InspeeroLibDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		B619C5704AAA9BB4AB2013E3F2C69A10 /* Pods-InspeeroLibDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InspeeroLibDemo.modulemap"; sourceTree = "<group>"; };
-		B754B3909D5877FD7E703A026B852AC5 /* InspeeroLibs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InspeeroLibs.xcconfig; sourceTree = "<group>"; };
 		B815CD947661E8BC5C87F334E92320BF /* Pods-InspeeroLibDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InspeeroLibDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA0D0241C4C83D0EAA1E57D34DF2E86E /* Pods-InspeeroLibDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InspeeroLibDemoTests.modulemap"; sourceTree = "<group>"; };
+		BA4D3790023D99B4C0D14B8D5CA7791B /* InspeeroLibs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InspeeroLibs-Info.plist"; sourceTree = "<group>"; };
 		BD18B1913A51498BCD671826182A6CE4 /* Pods-InspeeroLibDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InspeeroLibDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7333A2D923847FF3FE959FD2928D232 /* Pods-InspeeroLibDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InspeeroLibDemo-dummy.m"; sourceTree = "<group>"; };
+		CBCE719CB5EDC1A5FE0A8BAFAB9BA917 /* InspeeroLibs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InspeeroLibs-dummy.m"; sourceTree = "<group>"; };
 		D39338C48C6F97422962E140AD186293 /* Pods-InspeeroLibDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InspeeroLibDemoUITests-Info.plist"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DB089F8CB4A3052A87F1598A1AA9D26E /* Pods_InspeeroLibDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InspeeroLibDemoUITests.framework; path = "Pods-InspeeroLibDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E266D479E4F635B861152A9F765C0AE0 /* Pods-InspeeroLibDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InspeeroLibDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3FA7F783A290B0ABC558EC75538C4C3 /* InspeeroLibs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InspeeroLibs.modulemap; sourceTree = "<group>"; };
+		E52113E726FF5A1AC6FD0C2E7B74F1AC /* IAPHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAPHelper.swift; path = Components/InAppPurchase/Source/IAPHelper.swift; sourceTree = "<group>"; };
 		EC884AC057EACC5EF8AD79CC32357B65 /* Pods-InspeeroLibDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InspeeroLibDemoTests-dummy.m"; sourceTree = "<group>"; };
 		EDACC476F44186C1150005B3CDA5AE9B /* Pods-InspeeroLibDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InspeeroLibDemoUITests-umbrella.h"; sourceTree = "<group>"; };
 		EE75CE31D4D014EBDAC759CB6F151256 /* Pods-InspeeroLibDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InspeeroLibDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,14 +123,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AB75C7ED5E580C19F2D114806C8C6FC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3537C45ACDD941BD45A1925EB92ED6A5 /* InspeeroLibs */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		13FCAC9237CAA003825C94E2ED5FFA7C /* Pods-InspeeroLibDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,13 +140,18 @@
 			path = "Target Support Files/Pods-InspeeroLibDemo";
 			sourceTree = "<group>";
 		};
-		27D1A6BEBB71723B4C676827AD6C4A30 /* Pod */ = {
+		1E0C82135F162DEA53D0255BAE517FE3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				35144F79B2ABE53CC3A0C8C1E0E82D90 /* InspeeroLibs.podspec */,
-				88942361204F899CF14B492E0767505E /* LICENSE */,
+				E3FA7F783A290B0ABC558EC75538C4C3 /* InspeeroLibs.modulemap */,
+				450B4AB614D2DB36269C68C9CB71C743 /* InspeeroLibs.xcconfig */,
+				CBCE719CB5EDC1A5FE0A8BAFAB9BA917 /* InspeeroLibs-dummy.m */,
+				BA4D3790023D99B4C0D14B8D5CA7791B /* InspeeroLibs-Info.plist */,
+				96DAE2343484B84651F0EE3D59A02B2F /* InspeeroLibs-prefix.pch */,
+				3C20A2479C788E39459FAE0C706694BC /* InspeeroLibs-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/InspeeroLibs";
 			sourceTree = "<group>";
 		};
 		2CC3B21D57C5B9A785ABA9C1AF942FDE /* Products */ = {
@@ -169,17 +164,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		3537C45ACDD941BD45A1925EB92ED6A5 /* InspeeroLibs */ = {
-			isa = PBXGroup;
-			children = (
-				CD3DEFC80996CDD5E41B9AD77516A650 /* InAppPurchase */,
-				27D1A6BEBB71723B4C676827AD6C4A30 /* Pod */,
-				920CE81B68DECEF5058984A7E060DB66 /* Support Files */,
-			);
-			name = InspeeroLibs;
-			path = /Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries;
-			sourceTree = "<absolute>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
@@ -203,8 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				0AB75C7ED5E580C19F2D114806C8C6FC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F85E075FE5471C20B4B2188C3342E0BF /* Pods */,
 				2CC3B21D57C5B9A785ABA9C1AF942FDE /* Products */,
 				6501AA7C34C86C077E14E21356B00261 /* Targets Support Files */,
 			);
@@ -226,18 +210,14 @@
 			path = "Target Support Files/Pods-InspeeroLibDemoTests";
 			sourceTree = "<group>";
 		};
-		920CE81B68DECEF5058984A7E060DB66 /* Support Files */ = {
+		A1F56211512DD9D9E0DE311B7D804EC9 /* InspeeroLibs */ = {
 			isa = PBXGroup;
 			children = (
-				122EFEBB4148C738F9A2F9552228D88A /* InspeeroLibs.modulemap */,
-				B754B3909D5877FD7E703A026B852AC5 /* InspeeroLibs.xcconfig */,
-				2393F7CA9775F35D8B94C1617E5AAD75 /* InspeeroLibs-dummy.m */,
-				04A3F7470415FCD94121D50F1570F697 /* InspeeroLibs-Info.plist */,
-				A47DE2C8B1FB7C3DFEE7AB519D0AE7A6 /* InspeeroLibs-prefix.pch */,
-				0E03B5F7BE197206CD67BE68A1ECD01E /* InspeeroLibs-umbrella.h */,
+				CCCA6B453265A2E2457AC61ED3D756E4 /* InAppPurchase */,
+				1E0C82135F162DEA53D0255BAE517FE3 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Demos/InspeeroLibDemo/Pods/Target Support Files/InspeeroLibs";
+			name = InspeeroLibs;
+			path = InspeeroLibs;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -248,10 +228,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD3DEFC80996CDD5E41B9AD77516A650 /* InAppPurchase */ = {
+		CCCA6B453265A2E2457AC61ED3D756E4 /* InAppPurchase */ = {
 			isa = PBXGroup;
 			children = (
-				3F2B5D1F7221BAAF352CDCBF1E410D3B /* IAPHelper.swift */,
+				E52113E726FF5A1AC6FD0C2E7B74F1AC /* IAPHelper.swift */,
 			);
 			name = InAppPurchase;
 			sourceTree = "<group>";
@@ -270,6 +250,14 @@
 			);
 			name = "Pods-InspeeroLibDemoUITests";
 			path = "Target Support Files/Pods-InspeeroLibDemoUITests";
+			sourceTree = "<group>";
+		};
+		F85E075FE5471C20B4B2188C3342E0BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F56211512DD9D9E0DE311B7D804EC9 /* InspeeroLibs */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -544,7 +532,7 @@
 		};
 		105B684C5BAA5091E30C784BF773BBCA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B754B3909D5877FD7E703A026B852AC5 /* InspeeroLibs.xcconfig */;
+			baseConfigurationReference = 450B4AB614D2DB36269C68C9CB71C743 /* InspeeroLibs.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -864,7 +852,7 @@
 		};
 		DB67A59BE9E70320D42120D54C35797B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B754B3909D5877FD7E703A026B852AC5 /* InspeeroLibs.xcconfig */;
+			baseConfigurationReference = 450B4AB614D2DB36269C68C9CB71C743 /* InspeeroLibs.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
