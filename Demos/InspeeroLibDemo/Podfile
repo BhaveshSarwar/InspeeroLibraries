@@ -6,6 +6,8 @@ target 'InspeeroLibDemo' do
   use_frameworks!
 
   # Pods for InspeeroLibDemo
+	
+#   pod 'InspeeroLibs/InAppPurchase',:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
 
   target 'InspeeroLibDemoTests' do
     inherit! :search_paths

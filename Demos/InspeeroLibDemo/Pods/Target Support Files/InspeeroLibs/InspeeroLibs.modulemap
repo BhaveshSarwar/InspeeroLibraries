@@ -1,0 +1,6 @@
+framework module InspeeroLibs {
+  umbrella header "InspeeroLibs-umbrella.h"
+
+  export *
+  module * { export * }
+}

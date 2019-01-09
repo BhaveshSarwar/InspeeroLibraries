@@ -28,6 +28,7 @@
 
 import UIKit
 import StoreKit
+import InspeeroLibs
 
 class MasterViewController: UITableViewController {
   
@@ -78,7 +79,7 @@ class MasterViewController: UITableViewController {
     navigationItem.rightBarButtonItem = restoreButton
     
     NotificationCenter.default.addObserver(self, selector: #selector(MasterViewController.handlePurchaseNotification(_:)),
-                                           name: .IAPHelperPurchaseNotification,
+                                           name: NSNotification.Name(rawValue: "IAPHelperPurchaseNotification"),
                                            object: nil)
   }
   

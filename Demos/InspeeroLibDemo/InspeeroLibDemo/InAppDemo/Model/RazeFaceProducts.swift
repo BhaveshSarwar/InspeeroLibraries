@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import Foundation
+import InspeeroLibs
 
 public struct RazeFaceProducts {
   

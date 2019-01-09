@@ -28,6 +28,7 @@
 
 import UIKit
 import StoreKit
+import InspeeroLibs
 
 class ProductCell: UITableViewCell {
   static let priceFormatter: NumberFormatter = {

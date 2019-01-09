@@ -5,7 +5,7 @@ Pod::Spec.new do |mdc|
   mdc.summary      = "A collection of stand-alone production-ready libraries focused on reusbility details."
   mdc.homepage     = "https://git2.inspeero.com/bsarwar/InspeeroLibraries"
   mdc.license      = "MIT"
-  mdc.source       = { :git => "https://git2.inspeero.com/bsarwar/InspeeroLibraries.git", :tag => "v#{mdc.version}" }
+  mdc.source       = { :git => "https://git2.inspeero.com/bsarwar/InspeeroLibraries.git", :tag => "v#{mdc.version}" , :branch=>"develop" }
   mdc.platform     = :ios
   mdc.requires_arc = true
   mdc.ios.deployment_target = '10.0'

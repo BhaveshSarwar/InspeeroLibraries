@@ -1,0 +1,16 @@
+PODS:
+  - InspeeroLibs/InAppPurchase (0.1.0)
+
+DEPENDENCIES:
+  - InspeeroLibs/InAppPurchase (from `/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries`)
+
+EXTERNAL SOURCES:
+  InspeeroLibs:
+    :path: "/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries"
+
+SPEC CHECKSUMS:
+  InspeeroLibs: a5f19b682a0db4f5b3db4d52ef80058b57a0209d
+
+PODFILE CHECKSUM: 7cdeea66276ee1a2c6e1f4251b4d247ac412ac77
+
+COCOAPODS: 1.6.0.beta.2

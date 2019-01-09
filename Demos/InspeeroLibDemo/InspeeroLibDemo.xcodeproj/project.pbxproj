@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E18C50C7934503D42D258B7 /* Pods_InspeeroLibDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B439DB25F9EE69242D54234 /* Pods_InspeeroLibDemo.framework */; };
 		35A055A721E6625900F6F5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055A621E6625900F6F5AD /* AppDelegate.swift */; };
 		35A055A921E6625900F6F5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055A821E6625900F6F5AD /* ViewController.swift */; };
 		35A055AE21E6625B00F6F5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A055AD21E6625B00F6F5AD /* Assets.xcassets */; };
@@ -17,7 +18,10 @@
 		35A055DC21E662A900F6F5AD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055D721E662A800F6F5AD /* DetailViewController.swift */; };
 		35A055DD21E662A900F6F5AD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055D821E662A900F6F5AD /* MasterViewController.swift */; };
 		35A055DE21E662A900F6F5AD /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055D921E662A900F6F5AD /* ProductCell.swift */; };
-		35A055DF21E662A900F6F5AD /* RazeFaceProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055DA21E662A900F6F5AD /* RazeFaceProducts.swift */; };
+		35A055E121E669A500F6F5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A055E021E669A400F6F5AD /* Main.storyboard */; };
+		35A055E321E66A6D00F6F5AD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A055E221E66A6D00F6F5AD /* StoreKit.framework */; };
+		7332BED3F7AF8AE583F7BA16 /* Pods_InspeeroLibDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDF14B15224AAA8C505F35A /* Pods_InspeeroLibDemoUITests.framework */; };
+		D6395FD6D6C5E1EA4C0FEB41 /* Pods_InspeeroLibDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9796F3761232A408C5FC2FB /* Pods_InspeeroLibDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20BBD641C9CC091570588922 /* Pods-InspeeroLibDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemoUITests/Pods-InspeeroLibDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		35A055A321E6625900F6F5AD /* InspeeroLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspeeroLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A055A621E6625900F6F5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35A055A821E6625900F6F5AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +59,16 @@
 		35A055D721E662A800F6F5AD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		35A055D821E662A900F6F5AD /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		35A055D921E662A900F6F5AD /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
-		35A055DA21E662A900F6F5AD /* RazeFaceProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RazeFaceProducts.swift; sourceTree = "<group>"; };
+		35A055E021E669A400F6F5AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		35A055E221E66A6D00F6F5AD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4790B33C074F4B396EF8DA44 /* Pods-InspeeroLibDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemoTests/Pods-InspeeroLibDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDF14B15224AAA8C505F35A /* Pods_InspeeroLibDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InspeeroLibDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B439DB25F9EE69242D54234 /* Pods_InspeeroLibDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InspeeroLibDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F85DB72D4F2E6E149DFD63 /* Pods-InspeeroLibDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemoUITests/Pods-InspeeroLibDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9457F7B00958D15D79899E2C /* Pods-InspeeroLibDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemoTests.release.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemoTests/Pods-InspeeroLibDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8B93CD0FF7AD95BBE0C133F /* Pods-InspeeroLibDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemo.release.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C9796F3761232A408C5FC2FB /* Pods_InspeeroLibDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InspeeroLibDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F827C271640C026276833D25 /* Pods-InspeeroLibDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemo.debug.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E18C50C7934503D42D258B7 /* Pods_InspeeroLibDemo.framework in Frameworks */,
+				35A055E321E66A6D00F6F5AD /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6395FD6D6C5E1EA4C0FEB41 /* Pods_InspeeroLibDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +93,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7332BED3F7AF8AE583F7BA16 /* Pods_InspeeroLibDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE4F2DFE1E8AE35EAF33724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35A055E221E66A6D00F6F5AD /* StoreKit.framework */,
+				6B439DB25F9EE69242D54234 /* Pods_InspeeroLibDemo.framework */,
+				C9796F3761232A408C5FC2FB /* Pods_InspeeroLibDemoTests.framework */,
+				4BDF14B15224AAA8C505F35A /* Pods_InspeeroLibDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		35A0559A21E6625900F6F5AD = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +118,8 @@
 				35A055BA21E6625B00F6F5AD /* InspeeroLibDemoTests */,
 				35A055C521E6625B00F6F5AD /* InspeeroLibDemoUITests */,
 				35A055A421E6625900F6F5AD /* Products */,
+				5F3B8508213830A65F6BF1B2 /* Pods */,
+				1EE4F2DFE1E8AE35EAF33724 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +139,7 @@
 				35A055D421E6626C00F6F5AD /* InAppDemo */,
 				35A055A621E6625900F6F5AD /* AppDelegate.swift */,
 				35A055A821E6625900F6F5AD /* ViewController.swift */,
+				35A055E021E669A400F6F5AD /* Main.storyboard */,
 				35A055AD21E6625B00F6F5AD /* Assets.xcassets */,
 				35A055AF21E6625B00F6F5AD /* LaunchScreen.storyboard */,
 				35A055B221E6625B00F6F5AD /* Info.plist */,
@@ -140,7 +172,6 @@
 				35A055D821E662A900F6F5AD /* MasterViewController.swift */,
 				35A055D521E662A800F6F5AD /* Model */,
 				35A055D921E662A900F6F5AD /* ProductCell.swift */,
-				35A055DA21E662A900F6F5AD /* RazeFaceProducts.swift */,
 			);
 			path = InAppDemo;
 			sourceTree = "<group>";
@@ -153,6 +184,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5F3B8508213830A65F6BF1B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F827C271640C026276833D25 /* Pods-InspeeroLibDemo.debug.xcconfig */,
+				A8B93CD0FF7AD95BBE0C133F /* Pods-InspeeroLibDemo.release.xcconfig */,
+				4790B33C074F4B396EF8DA44 /* Pods-InspeeroLibDemoTests.debug.xcconfig */,
+				9457F7B00958D15D79899E2C /* Pods-InspeeroLibDemoTests.release.xcconfig */,
+				71F85DB72D4F2E6E149DFD63 /* Pods-InspeeroLibDemoUITests.debug.xcconfig */,
+				20BBD641C9CC091570588922 /* Pods-InspeeroLibDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35A055CB21E6625B00F6F5AD /* Build configuration list for PBXNativeTarget "InspeeroLibDemo" */;
 			buildPhases = (
+				C75EDF3773577244ACEF9420 /* [CP] Check Pods Manifest.lock */,
 				35A0559F21E6625900F6F5AD /* Sources */,
 				35A055A021E6625900F6F5AD /* Frameworks */,
 				35A055A121E6625900F6F5AD /* Resources */,
+				BA6E4DF5363764678680140E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35A055CE21E6625B00F6F5AD /* Build configuration list for PBXNativeTarget "InspeeroLibDemoTests" */;
 			buildPhases = (
+				58281587081CD21E60390B6A /* [CP] Check Pods Manifest.lock */,
 				35A055B321E6625B00F6F5AD /* Sources */,
 				35A055B421E6625B00F6F5AD /* Frameworks */,
 				35A055B521E6625B00F6F5AD /* Resources */,
@@ -195,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35A055D121E6625B00F6F5AD /* Build configuration list for PBXNativeTarget "InspeeroLibDemoUITests" */;
 			buildPhases = (
+				2D05430BA88787E6FE2538BF /* [CP] Check Pods Manifest.lock */,
 				35A055BE21E6625B00F6F5AD /* Sources */,
 				35A055BF21E6625B00F6F5AD /* Frameworks */,
 				35A055C021E6625B00F6F5AD /* Resources */,
@@ -221,6 +269,11 @@
 				TargetAttributes = {
 					35A055A221E6625900F6F5AD = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					35A055B621E6625B00F6F5AD = {
 						CreatedOnToolsVersion = 10.1;
@@ -257,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A055E121E669A500F6F5AD /* Main.storyboard in Resources */,
 				35A055B121E6625B00F6F5AD /* LaunchScreen.storyboard in Resources */,
 				35A055AE21E6625B00F6F5AD /* Assets.xcassets in Resources */,
 			);
@@ -278,6 +332,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D05430BA88787E6FE2538BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InspeeroLibDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58281587081CD21E60390B6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InspeeroLibDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6E4DF5363764678680140E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/InspeeroLibs/InspeeroLibs.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InspeeroLibs.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C75EDF3773577244ACEF9420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InspeeroLibDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35A0559F21E6625900F6F5AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -285,7 +430,6 @@
 			files = (
 				35A055DD21E662A900F6F5AD /* MasterViewController.swift in Sources */,
 				35A055A921E6625900F6F5AD /* ViewController.swift in Sources */,
-				35A055DF21E662A900F6F5AD /* RazeFaceProducts.swift in Sources */,
 				35A055DB21E662A900F6F5AD /* RazeFaceProducts.swift in Sources */,
 				35A055DE21E662A900F6F5AD /* ProductCell.swift in Sources */,
 				35A055A721E6625900F6F5AD /* AppDelegate.swift in Sources */,
@@ -454,6 +598,7 @@
 		};
 		35A055CC21E6625B00F6F5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F827C271640C026276833D25 /* Pods-InspeeroLibDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,7 +608,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.InspeeroLibDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.andara.Ia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,6 +617,7 @@
 		};
 		35A055CD21E6625B00F6F5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B93CD0FF7AD95BBE0C133F /* Pods-InspeeroLibDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -481,7 +627,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.InspeeroLibDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.andara.Ia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -490,6 +636,7 @@
 		};
 		35A055CF21E6625B00F6F5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4790B33C074F4B396EF8DA44 /* Pods-InspeeroLibDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +658,7 @@
 		};
 		35A055D021E6625B00F6F5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9457F7B00958D15D79899E2C /* Pods-InspeeroLibDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +680,7 @@
 		};
 		35A055D221E6625B00F6F5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F85DB72D4F2E6E149DFD63 /* Pods-InspeeroLibDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +701,7 @@
 		};
 		35A055D321E6625B00F6F5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BBD641C9CC091570588922 /* Pods-InspeeroLibDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

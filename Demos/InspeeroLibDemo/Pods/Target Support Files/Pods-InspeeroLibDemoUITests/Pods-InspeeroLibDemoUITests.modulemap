@@ -1,0 +1,6 @@
+framework module Pods_InspeeroLibDemoUITests {
+  umbrella header "Pods-InspeeroLibDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
