@@ -16,13 +16,13 @@ import XMPPFramework
     
 }
 
-class XmppManager: NSObject {
+public class XmppManager: NSObject {
 
     
-    static let shared = XmppManager()
-    var xmppStream:XMPPStream?
+    public static let shared = XmppManager()
+    public var xmppStream:XMPPStream?
     var delegate:XMPPManagerDelegates?
-    var streamDelegate:XMPPStreamDelegate?
+    public var streamDelegate:XMPPStreamDelegate?
     var hostName: String = ""
     var userJID: XMPPJID?
     var hostPort: UInt16 = 5222
@@ -44,7 +44,7 @@ class XmppManager: NSObject {
     }
 
     /// Connection creation
-    func createConnection(hostName: String, userJIDString: String, hostPort: UInt16 = 5222, password: String) throws{
+    public func createConnection(hostName: String, userJIDString: String, hostPort: UInt16 = 5222, password: String) throws{
         guard let userJID = XMPPJID(string: userJIDString) else {
             throw XMPPControllerError.wrongUserJID
         }
@@ -68,14 +68,14 @@ class XmppManager: NSObject {
         connect()
     }
 
-    func connect() {
+    public func connect() {
         if !self.xmppStream!.isDisconnected {
             return
         }
         try! self.xmppStream!.connect(withTimeout: XMPPStreamTimeoutNone)
     }
     
-    func diconnect() {
+    public func disconnect() {
         if xmppStream == nil{ return }
         if self.xmppStream!.isDisconnected {
             return
@@ -114,7 +114,7 @@ class XmppManager: NSObject {
     
     /// Messages
     
-    func sendMessage(message:String,to:XMPPJID){
+    public func sendMessage(message:String,to:XMPPJID){
         let xmppMessage = XMPPMessage.init(type: message, to: to)
         xmppStream?.send(xmppMessage)
     }
@@ -127,22 +127,22 @@ extension XmppManager: XMPPStreamDelegate {
     
     
     /// Connections Authentication
-    func xmppStreamDidConnect(_ stream: XMPPStream) {
+    public func xmppStreamDidConnect(_ stream: XMPPStream) {
         print("Stream: Connected")
         let auth = XMPPPlainAuthentication(stream: self.xmppStream!, username: self.userJID?.bare, password: self.password)
         try! stream.authenticate(auth)
         
     }
-    func xmppStreamDidAuthenticate(_ sender: XMPPStream) {
+    public func xmppStreamDidAuthenticate(_ sender: XMPPStream) {
         self.startPresenceTimer()
         print("Stream: Authenticated")
     }
-    func xmppStream(_ sender: XMPPStream, didSend presence: XMPPPresence) {
+    public func xmppStream(_ sender: XMPPStream, didSend presence: XMPPPresence) {
         print("Stream: Presence sent")
     }
     
     ///Messages Delegates
-    func xmppStream(_ sender: XMPPStream, didReceive message: XMPPMessage) {
+    public func xmppStream(_ sender: XMPPStream, didReceive message: XMPPMessage) {
         if delegate != nil {
             delegate?.messageReceived!(message: message)
             
@@ -150,24 +150,24 @@ extension XmppManager: XMPPStreamDelegate {
         print("Stream: Message received")
     }
     
-    func xmppStream(_ sender: XMPPStream, willSend message: XMPPMessage) -> XMPPMessage? {
+    public func xmppStream(_ sender: XMPPStream, willSend message: XMPPMessage) -> XMPPMessage? {
         
         return message
     }
     
-    func xmppStream(_ sender: XMPPStream, didFailToSend message: XMPPMessage, error: Error) {
+    public func xmppStream(_ sender: XMPPStream, didFailToSend message: XMPPMessage, error: Error) {
         
     }
     
     // Errors Delegates
     
-    func xmppStreamConnectDidTimeout(_ sender: XMPPStream) {
+    public func xmppStreamConnectDidTimeout(_ sender: XMPPStream) {
         print("Stream : connection timeout")
         
  
     }
     
-    func xmppStream(_ sender: XMPPStream, didReceiveError error: DDXMLElement) {
+    public func xmppStream(_ sender: XMPPStream, didReceiveError error: DDXMLElement) {
         print("Stream: Error ")
         print(error.description)
     }
@@ -175,7 +175,7 @@ extension XmppManager: XMPPStreamDelegate {
     
     ///IQ
     
-    func xmppStream(_ sender: XMPPStream, didReceive iq: XMPPIQ) -> Bool {
+    public func xmppStream(_ sender: XMPPStream, didReceive iq: XMPPIQ) -> Bool {
         
 //        _ = GetGroupListXMLParser().self
         self.delegate?.receivedIq!(data: iq.xmlString.data(using: .utf8)!, iq: iq)
@@ -183,25 +183,21 @@ extension XmppManager: XMPPStreamDelegate {
         return true
     }
     
-    func xmppStream(_ sender: XMPPStream, didSend message: XMPPMessage) {
+    public func xmppStream(_ sender: XMPPStream, didSend message: XMPPMessage) {
         print("msg sent")
     }
     
   
-    func xmppStreamDidDisconnect(_ sender: XMPPStream, withError error: Error?) {
+    public func xmppStreamDidDisconnect(_ sender: XMPPStream, withError error: Error?) {
         
         print("Xmpp connection did disconnected")
     }
-    func xmppStream(_ sender: XMPPStream, didSend iq: XMPPIQ) {
+    public func xmppStream(_ sender: XMPPStream, didSend iq: XMPPIQ) {
         
         print("iq sent")
         
     }
     
-    
-    
-    
-
 }
 
 
