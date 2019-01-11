@@ -20,6 +20,7 @@
 		35A055DE21E662A900F6F5AD /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055D921E662A900F6F5AD /* ProductCell.swift */; };
 		35A055E121E669A500F6F5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A055E021E669A400F6F5AD /* Main.storyboard */; };
 		35A055E321E66A6D00F6F5AD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A055E221E66A6D00F6F5AD /* StoreKit.framework */; };
+		35A055E621E67F5000F6F5AD /* XMPPLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055E521E67F5000F6F5AD /* XMPPLoginVC.swift */; };
 		7332BED3F7AF8AE583F7BA16 /* Pods_InspeeroLibDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDF14B15224AAA8C505F35A /* Pods_InspeeroLibDemoUITests.framework */; };
 		D6395FD6D6C5E1EA4C0FEB41 /* Pods_InspeeroLibDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9796F3761232A408C5FC2FB /* Pods_InspeeroLibDemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		35A055D921E662A900F6F5AD /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		35A055E021E669A400F6F5AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		35A055E221E66A6D00F6F5AD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		35A055E521E67F5000F6F5AD /* XMPPLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPLoginVC.swift; sourceTree = "<group>"; };
 		4790B33C074F4B396EF8DA44 /* Pods-InspeeroLibDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemoTests/Pods-InspeeroLibDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BDF14B15224AAA8C505F35A /* Pods_InspeeroLibDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InspeeroLibDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B439DB25F9EE69242D54234 /* Pods_InspeeroLibDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InspeeroLibDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 		35A055A521E6625900F6F5AD /* InspeeroLibDemo */ = {
 			isa = PBXGroup;
 			children = (
+				35A055E421E67F3000F6F5AD /* XmppDemo */,
 				35A055D421E6626C00F6F5AD /* InAppDemo */,
 				35A055A621E6625900F6F5AD /* AppDelegate.swift */,
 				35A055A821E6625900F6F5AD /* ViewController.swift */,
@@ -184,6 +187,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		35A055E421E67F3000F6F5AD /* XmppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35A055E521E67F5000F6F5AD /* XMPPLoginVC.swift */,
+			);
+			path = XmppDemo;
+			sourceTree = "<group>";
+		};
 		5F3B8508213830A65F6BF1B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +219,7 @@
 				35A0559F21E6625900F6F5AD /* Sources */,
 				35A055A021E6625900F6F5AD /* Frameworks */,
 				35A055A121E6625900F6F5AD /* Resources */,
-				897F7E3F3D47E11D3C1D7E8E /* [CP] Embed Pods Frameworks */,
+				2C89E316FEE094F856DA428D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -333,6 +344,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2C89E316FEE094F856DA428D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/InspeeroLibs/InspeeroLibs.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/libidn/libidn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InspeeroLibs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libidn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D05430BA88787E6FE2538BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,28 +420,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		897F7E3F3D47E11D3C1D7E8E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/InspeeroLibs/InspeeroLibs.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InspeeroLibs.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C75EDF3773577244ACEF9420 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A055E621E67F5000F6F5AD /* XMPPLoginVC.swift in Sources */,
 				35A055DD21E662A900F6F5AD /* MasterViewController.swift in Sources */,
 				35A055A921E6625900F6F5AD /* ViewController.swift in Sources */,
 				35A055DB21E662A900F6F5AD /* RazeFaceProducts.swift in Sources */,
