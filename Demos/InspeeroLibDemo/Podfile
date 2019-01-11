@@ -8,10 +8,10 @@ target 'InspeeroLibDemo' do
   # Pods for InspeeroLibDemo
 	
 #   pod 'InspeeroLibs/InAppPurchase',:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
-#pod 'InspeeroLibs/InAppPurchase'#,:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
-#pod 'InspeeroLibs/XMPPClient'#,:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
+pod 'InspeeroLibs/InAppPurchase'#,:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
+pod 'InspeeroLibs/XMPPClient'#,:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
 #pod 'XMPPFramework/Swift'
-pod 'InspeeroLibs'
+#pod 'InspeeroLibs'
   target 'InspeeroLibDemoTests' do
     inherit! :search_paths
     # Pods for testing
