@@ -7,6 +7,7 @@ Inspeero Libraries for iOS are written in Objective-C and support Swift and Inte
 ## Libraries
 
 - [InAppPurchase](Components/InAppPurchase)
+- [XMPPClient](Components/XMPPClient)
 
 ## Trying out Inspeero Components
 
