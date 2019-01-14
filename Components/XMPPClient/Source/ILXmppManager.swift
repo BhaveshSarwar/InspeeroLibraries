@@ -16,10 +16,10 @@ import XMPPFramework
     
 }
 
-public class XmppManager: NSObject {
+public class ILXmppManager: NSObject {
 
     
-    public static let shared = XmppManager()
+    public static let shared = ILXmppManager()
     public var xmppStream:XMPPStream?
     var delegate:XMPPManagerDelegates?
     public var streamDelegate:XMPPStreamDelegate?
@@ -123,7 +123,7 @@ public class XmppManager: NSObject {
     
 }
 
-extension XmppManager: XMPPStreamDelegate {
+extension ILXmppManager: XMPPStreamDelegate {
     
     
     /// Connections Authentication

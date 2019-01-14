@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF7F5ABDE007E640977C88563C6D1889"
+               BlueprintIdentifier = "7E15636DA9FB76F912254FAB4935BE3C"
                BlueprintName = "libidn"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libidn.framework">

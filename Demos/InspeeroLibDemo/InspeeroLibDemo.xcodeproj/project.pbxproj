@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2E18C50C7934503D42D258B7 /* Pods_InspeeroLibDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B439DB25F9EE69242D54234 /* Pods_InspeeroLibDemo.framework */; };
-		35033D4221EC6CEE00B16117 /* ILNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35033D4121EC6CEE00B16117 /* ILNetworkManager.swift */; };
 		35033D4421EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35033D4321EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift */; };
 		35A055A721E6625900F6F5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055A621E6625900F6F5AD /* AppDelegate.swift */; };
 		35A055A921E6625900F6F5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055A821E6625900F6F5AD /* ViewController.swift */; };
@@ -46,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		20BBD641C9CC091570588922 /* Pods-InspeeroLibDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemoUITests/Pods-InspeeroLibDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		35033D4121EC6CEE00B16117 /* ILNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILNetworkManager.swift; sourceTree = "<group>"; };
 		35033D4321EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift; sourceTree = "<group>"; };
 		35A055A321E6625900F6F5AD /* InspeeroLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspeeroLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A055A621E6625900F6F5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 		35033D4021EC66A700B16117 /* Network Manager Demo */ = {
 			isa = PBXGroup;
 			children = (
-				35033D4121EC6CEE00B16117 /* ILNetworkManager.swift */,
 				35033D4321EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift */,
 			);
 			path = "Network Manager Demo";
@@ -233,7 +230,7 @@
 				35A0559F21E6625900F6F5AD /* Sources */,
 				35A055A021E6625900F6F5AD /* Frameworks */,
 				35A055A121E6625900F6F5AD /* Resources */,
-				ED9E76563246EB4CD6969911 /* [CP] Embed Pods Frameworks */,
+				7EB32DE8F75BBEE2920A1027 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -402,29 +399,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C75EDF3773577244ACEF9420 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InspeeroLibDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED9E76563246EB4CD6969911 /* [CP] Embed Pods Frameworks */ = {
+		7EB32DE8F75BBEE2920A1027 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,6 +433,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C75EDF3773577244ACEF9420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InspeeroLibDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -468,7 +465,6 @@
 				35A055E621E67F5000F6F5AD /* XMPPLoginVC.swift in Sources */,
 				35A055DD21E662A900F6F5AD /* MasterViewController.swift in Sources */,
 				35A055A921E6625900F6F5AD /* ViewController.swift in Sources */,
-				35033D4221EC6CEE00B16117 /* ILNetworkManager.swift in Sources */,
 				35A055DB21E662A900F6F5AD /* RazeFaceProducts.swift in Sources */,
 				35033D4421EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift in Sources */,
 				35A055DE21E662A900F6F5AD /* ProductCell.swift in Sources */,

@@ -52,7 +52,7 @@ class ProductCell: UITableViewCell {
         accessoryType = .checkmark
         accessoryView = nil
         detailTextLabel?.text = ""
-      } else if IAPHelper.canMakePayments() {
+      } else if ILInAppHelper.canMakePayments() {
         ProductCell.priceFormatter.locale = product.priceLocale
         detailTextLabel?.text = ProductCell.priceFormatter.string(from: product.price)
 

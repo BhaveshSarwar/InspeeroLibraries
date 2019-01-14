@@ -35,7 +35,7 @@ extension Notification.Name {
   static let IAPHelperPurchaseNotification = Notification.Name("IAPHelperPurchaseNotification")
 }
 
-open class IAPHelper: NSObject  {
+open class ILInAppHelper: NSObject  {
   
 
   
@@ -63,7 +63,7 @@ open class IAPHelper: NSObject  {
 
 // MARK: - StoreKit API
 
-extension IAPHelper {
+extension ILInAppHelper {
   
   public func requestProducts(_ completionHandler: @escaping ProductsRequestCompletionHandler) {
     productsRequest?.cancel()
@@ -159,7 +159,7 @@ extension IAPHelper {
 
 // MARK: - SKProductsRequestDelegate
 
-extension IAPHelper: SKProductsRequestDelegate {
+extension ILInAppHelper: SKProductsRequestDelegate {
 
   public func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
     print("Loaded list of products...")
@@ -188,7 +188,7 @@ extension IAPHelper: SKProductsRequestDelegate {
 
 // MARK: - SKPaymentTransactionObserver
 
-extension IAPHelper: SKPaymentTransactionObserver {
+extension ILInAppHelper: SKPaymentTransactionObserver {
 
   public func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
     for transaction in transactions {

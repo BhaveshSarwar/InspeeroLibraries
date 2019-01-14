@@ -41,7 +41,7 @@ public struct RazeFaceProducts {
                                                                   RazeFaceProducts.autoRenewable,
                                                                   RazeFaceProducts.nonRenewable]
 
-  public static let store = IAPHelper(productIds: RazeFaceProducts.productIdentifiers)
+  public static let store = ILInAppHelper(productIds: RazeFaceProducts.productIdentifiers)
 }
 
 func resourceNameForProductIdentifier(_ productIdentifier: String) -> String? {

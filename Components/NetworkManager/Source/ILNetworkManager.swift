@@ -8,10 +8,10 @@
 
 import UIKit
 import Alamofire
-class ILNetworkManager: NSObject {
+public class ILNetworkManager: NSObject {
 
     /// Singleton
-    static let shared = ILNetworkManager()
+    public static let shared = ILNetworkManager()
     private override init() {
         let configuration = URLSessionConfiguration.default
         configuration.timeoutIntervalForRequest = 4 // seconds
@@ -23,8 +23,8 @@ class ILNetworkManager: NSObject {
     public typealias responseModel = (_ response: NSDictionary? , _ error:Error?) -> Void
     
     /// URL
-    let serverURL = ""
-    let alamoFireManager:SessionManager?
+    public let serverURL = ""
+    public let alamoFireManager:SessionManager?
     
 //    let alamofireSessionManager
 
@@ -32,7 +32,7 @@ class ILNetworkManager: NSObject {
     
     /// Sending normal request
     
-    func sendRequest(baseUrl:String = ILNetworkManager.shared.serverURL,
+    public func sendRequest(baseUrl:String = ILNetworkManager.shared.serverURL,
                      methodType:HTTPMethod,
                      apiName:String,
                      parameters:NSDictionary?,
@@ -68,7 +68,7 @@ class ILNetworkManager: NSObject {
     
     
     
-    func sendImagesRequest(baseUrl:String = ILNetworkManager.shared.serverURL,
+    public func sendImagesRequest(baseUrl:String = ILNetworkManager.shared.serverURL,
                            methodType:HTTPMethod,
                            apiName:String,
                            parameters:NSDictionary?,

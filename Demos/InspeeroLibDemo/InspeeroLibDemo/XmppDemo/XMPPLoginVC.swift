@@ -29,14 +29,14 @@ class XMPPLoginVC: UIViewController {
     
 
     override func viewWillDisappear(_ animated: Bool) {
-        XmppManager.shared.disconnect()
+        ILXmppManager.shared.disconnect()
     }
     
     @IBAction func loginAction(_ sender: Any) {
         loginButton.setTitle("Connecting", for: .normal)
         
-        XmppManager.shared.streamDelegate = self
-        try! XmppManager.shared.createConnection(hostName: serverURLTextField.text!,
+        ILXmppManager.shared.streamDelegate = self
+        try! ILXmppManager.shared.createConnection(hostName: serverURLTextField.text!,
                                                  userJIDString: userNameTextField.text!,
                                                  password: passWordTextField.text!)
         
@@ -55,7 +55,7 @@ class XMPPLoginVC: UIViewController {
         logsTextView.text = "LOGS >>"
     }
     @IBAction func disconnectAction(_ sender: Any) {
-        XmppManager.shared.disconnect()
+        ILXmppManager.shared.disconnect()
     }
     
     

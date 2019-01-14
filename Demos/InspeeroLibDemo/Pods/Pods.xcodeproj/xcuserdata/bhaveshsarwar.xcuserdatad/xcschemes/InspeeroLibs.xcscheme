@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "17EBF210FD99A964853DEB9320299385"
+               BlueprintIdentifier = "4D50FD2EB00E1ECC44BCF758ADB8043F"
                BlueprintName = "InspeeroLibs"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "InspeeroLibs.framework">

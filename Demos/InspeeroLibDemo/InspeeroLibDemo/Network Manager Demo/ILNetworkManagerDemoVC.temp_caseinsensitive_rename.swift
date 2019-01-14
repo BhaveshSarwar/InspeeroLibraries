@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import InspeeroLibs
 class ILNetworkManagerDemoVC: UIViewController {
 
     @IBOutlet weak var verticalStackView: UIStackView!

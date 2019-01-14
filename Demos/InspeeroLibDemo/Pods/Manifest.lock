@@ -9,8 +9,10 @@ PODS:
     - CocoaLumberjack/Default
   - CocoaLumberjack/Swift (3.4.2):
     - CocoaLumberjack/Default
-  - InspeeroLibs/InAppPurchase (0.3.0)
-  - InspeeroLibs/XMPPClient (0.3.0):
+  - InspeeroLibs/InAppPurchase (0.4.0)
+  - InspeeroLibs/NetworkManager (0.4.0):
+    - Alamofire (~> 4.8.0)
+  - InspeeroLibs/XMPPClient (0.4.0):
     - XMPPFramework/Swift
   - KissXML (5.2.3)
   - libidn (1.35)
@@ -24,29 +26,32 @@ PODS:
     - XMPPFramework/default
 
 DEPENDENCIES:
-  - Alamofire (~> 4.8.0)
-  - InspeeroLibs/InAppPurchase
-  - InspeeroLibs/XMPPClient
+  - InspeeroLibs/InAppPurchase (from `/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries`)
+  - InspeeroLibs/NetworkManager (from `/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries`)
+  - InspeeroLibs/XMPPClient (from `/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - CocoaAsyncSocket
     - CocoaLumberjack
-    - InspeeroLibs
     - KissXML
     - libidn
     - XMPPFramework
+
+EXTERNAL SOURCES:
+  InspeeroLibs:
+    :path: "/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries"
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
-  InspeeroLibs: dcad2f1ebae7c7fb4feb0f594121253a72dbdb9d
+  InspeeroLibs: 78358d71c182b40028d1e74140d8f119515024a5
   KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: 366e7bc0da3611b9e59552b1226dd10baf350bb8
+PODFILE CHECKSUM: 9ee3f4791e518592af85fa2c67e0762f8ae7ee08
 
 COCOAPODS: 1.6.0.beta.2
