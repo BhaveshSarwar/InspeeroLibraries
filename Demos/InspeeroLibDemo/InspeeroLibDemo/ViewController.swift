@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let tableData = [["title":"In App Purchase","segue":"InAppPurchase"],
-                     ["title":"Xmpp Client","segue":"xmppClient"]]
+                     ["title":"Xmpp Client","segue":"xmppClient"],
+                     ["title":" Network Manager","segue":"networkManager"]]
     
     override func viewDidLoad() {
         super.viewDidLoad()

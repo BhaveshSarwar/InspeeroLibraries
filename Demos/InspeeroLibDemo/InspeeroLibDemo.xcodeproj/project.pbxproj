@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E18C50C7934503D42D258B7 /* Pods_InspeeroLibDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B439DB25F9EE69242D54234 /* Pods_InspeeroLibDemo.framework */; };
+		35033D4221EC6CEE00B16117 /* ILNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35033D4121EC6CEE00B16117 /* ILNetworkManager.swift */; };
+		35033D4421EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35033D4321EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift */; };
 		35A055A721E6625900F6F5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055A621E6625900F6F5AD /* AppDelegate.swift */; };
 		35A055A921E6625900F6F5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A055A821E6625900F6F5AD /* ViewController.swift */; };
 		35A055AE21E6625B00F6F5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A055AD21E6625B00F6F5AD /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		20BBD641C9CC091570588922 /* Pods-InspeeroLibDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspeeroLibDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-InspeeroLibDemoUITests/Pods-InspeeroLibDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35033D4121EC6CEE00B16117 /* ILNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILNetworkManager.swift; sourceTree = "<group>"; };
+		35033D4321EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift; sourceTree = "<group>"; };
 		35A055A321E6625900F6F5AD /* InspeeroLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspeeroLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A055A621E6625900F6F5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35A055A821E6625900F6F5AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +117,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		35033D4021EC66A700B16117 /* Network Manager Demo */ = {
+			isa = PBXGroup;
+			children = (
+				35033D4121EC6CEE00B16117 /* ILNetworkManager.swift */,
+				35033D4321EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift */,
+			);
+			path = "Network Manager Demo";
+			sourceTree = "<group>";
+		};
 		35A0559A21E6625900F6F5AD = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +151,7 @@
 		35A055A521E6625900F6F5AD /* InspeeroLibDemo */ = {
 			isa = PBXGroup;
 			children = (
+				35033D4021EC66A700B16117 /* Network Manager Demo */,
 				35A055E421E67F3000F6F5AD /* XmppDemo */,
 				35A055D421E6626C00F6F5AD /* InAppDemo */,
 				35A055A621E6625900F6F5AD /* AppDelegate.swift */,
@@ -419,6 +433,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-InspeeroLibDemo/Pods-InspeeroLibDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/InspeeroLibs/InspeeroLibs.framework",
@@ -430,6 +445,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InspeeroLibs.framework",
@@ -452,7 +468,9 @@
 				35A055E621E67F5000F6F5AD /* XMPPLoginVC.swift in Sources */,
 				35A055DD21E662A900F6F5AD /* MasterViewController.swift in Sources */,
 				35A055A921E6625900F6F5AD /* ViewController.swift in Sources */,
+				35033D4221EC6CEE00B16117 /* ILNetworkManager.swift in Sources */,
 				35A055DB21E662A900F6F5AD /* RazeFaceProducts.swift in Sources */,
+				35033D4421EC985000B16117 /* ILNetworkManagerDemoVC.temp_caseinsensitive_rename.swift in Sources */,
 				35A055DE21E662A900F6F5AD /* ProductCell.swift in Sources */,
 				35A055A721E6625900F6F5AD /* AppDelegate.swift in Sources */,
 				35A055DC21E662A900F6F5AD /* DetailViewController.swift in Sources */,
