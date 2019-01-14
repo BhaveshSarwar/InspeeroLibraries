@@ -7,10 +7,9 @@ target 'InspeeroLibDemo' do
 
   # Pods for InspeeroLibDemo
 	
-#   pod 'InspeeroLibs/InAppPurchase',:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
-pod 'InspeeroLibs/InAppPurchase',:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
-pod 'InspeeroLibs/XMPPClient',:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
-pod 'InspeeroLibs/NetworkManager',:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
+pod 'InspeeroLibs/InAppPurchase'#,:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
+pod 'InspeeroLibs/XMPPClient'#,:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
+pod 'InspeeroLibs/NetworkManager'#,:path=>'/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries'
 
 #pod 'Alamofire', '~> 4.8.0'
 

@@ -45,6 +45,8 @@ class ILNetworkManagerDemoVC: UIViewController {
         for subview in verticalStackView.arrangedSubviews as! [keyValueView]{
             parameters.setValue(subview.valueTextField.text, forKey: subview.keyTextField.text!)
         }
+        ILNetworkManager.shared.serverURL = ""
+        
         ILNetworkManager.shared.sendRequest(baseUrl:serverURLTextField.text!,
                                             methodType: requestTypeSegment.selectedSegmentIndex == 0 ? .get : .post,
                                             apiName: apiNameTextField.text!,

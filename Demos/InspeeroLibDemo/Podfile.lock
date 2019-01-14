@@ -26,22 +26,19 @@ PODS:
     - XMPPFramework/default
 
 DEPENDENCIES:
-  - InspeeroLibs/InAppPurchase (from `/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries`)
-  - InspeeroLibs/NetworkManager (from `/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries`)
-  - InspeeroLibs/XMPPClient (from `/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries`)
+  - InspeeroLibs/InAppPurchase
+  - InspeeroLibs/NetworkManager
+  - InspeeroLibs/XMPPClient
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - CocoaAsyncSocket
     - CocoaLumberjack
+    - InspeeroLibs
     - KissXML
     - libidn
     - XMPPFramework
-
-EXTERNAL SOURCES:
-  InspeeroLibs:
-    :path: "/Users/bhaveshsarwar/Documents/Inspeero/iOS_Projects/InspeeroLibraries"
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
@@ -52,6 +49,6 @@ SPEC CHECKSUMS:
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: 9ee3f4791e518592af85fa2c67e0762f8ae7ee08
+PODFILE CHECKSUM: 95ba86ff5bd01ac130991b499d245df378db1cc5
 
 COCOAPODS: 1.6.0.beta.2

@@ -5,17 +5,16 @@ Inspeero Libraries for iOS helps developers execute **inspeero custom components
 Inspeero Libraries for iOS are written in Objective-C and support Swift and Interface Builder.
 
 ## Status
-| Component      | Start Date  | End Date    | Dev Status     | Test Status | Demo Available? | Comments |
-|----------------|-------------|-------------|----------------|-------------|-----------------|----------|
-| InAppPurchase  | 9-JAN-2019  | 10-JAN-2019 | Ready For Test |             | YES             |          |
-| XMPPClient     | 10-JAN-2019 | 11-JAN-2019 | Ready For Test |             | YES             |          |
-| NetworkManager | 14-JAN-2019 | 14-JAN-2019 | Ready For Test |             | YES             |          |
+| Component      | StartDate   | EndDate     | Status         | DemoApplication |
+|----------------|-------------|-------------|----------------|-----------------|
+| InAppPurchase  | 9-JAN-2019  | 10-JAN-2019 | Ready For Test | Done            |
+| XMPPClient     | 10-JAN-2019 | 11-JAN-2019 | Ready For Test | Done            |
+| NetworkManager | 14-JAN-2019 |             | In Progress    |                 |
 
 ## Libraries
 
 - [InAppPurchase](Components/InAppPurchase)
 - [XMPPClient](Components/XMPPClient)
-- [Network Manager](Components/NetworkManager)
 
 ## Trying out Inspeero Components
 
